@@ -1,0 +1,51 @@
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Estilo para el encabezado */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    flex: 0 1 auto;
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+/* Estilo para la barra lateral izquierda */
+.left-sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Estilo para el contenido principal */
+.content {
+    background-color: #ffffff;
+    padding: 20px;
+    flex: 2;
+}
+
+/* Estilo para la barra lateral derecha */
+.right-sidebar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Estilo para el pie de página */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    flex: 0 1 auto;
+}

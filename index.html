@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta de Presentación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background-color: #fcfbff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 1240px;
+            height: 600px;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+
+        .left {
+            width: 35%;
+        }
+
+        .right {
+            width: 60%;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            border: 12px solid #caedea;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            /* margin-bottom: 20px; */
+        }
+
+        .name {
+            font-size: 4vw;
+            font-weight: bold;
+            margin: 0;
+            color: #2c306c
+        }
+
+        .title {
+            font-size: 2vw;
+            color: #777;
+            margin: 5px 0 20px;
+            color: #2c306c
+        }
+
+        .contact-info {
+            text-align: left;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info img {
+            width: 20px;
+            margin-right: 10px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media img {
+            width: 30px;
+            margin: 0 10px;
+        }
+
+        .contain-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 260px;
+            height: 260px;
+            border-radius: 50%;
+            background-color: #2c306c;
+        }
+
+        .contain-name {
+            margin-top: 5vh;
+
+        }
+
+        .divider {
+            height: 1vh;
+            background-color: #caedea;
+            border: none;
+            margin-right: -1.5vw;
+        }
+
+        .icons {
+            font-size: 12px;
+            color: #caedea;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="left" style="display: flex; justify-content: center; align-items: center; height: 100%;">
+            <div class="contain-image"> <img src="./images/pruebaFrontal.jpg" alt="Foto de Perfil" class="profile-pic">
+            </div>
+            <!-- <div class="social-media">
+                <img src="heart-icon.png" alt="Icono de Corazón">
+                <img src="like-icon.png" alt="Icono de Me Gusta">
+                <p>@sitioincreible</p>
+            </div> -->
+        </div>
+        <div class="right">
+            <div class="contain-name">
+                <h1 class="name">Luis Royero</h1>
+                <p class="title">Systems Engineer</p>
+            </div>
+            <hr class="divider">
+            <div class="contact-info">
+                <p><img src="./icons/call_24.svg" alt="Icono de Teléfono" class="icons"> (+57) 3118979648</p>
+                <p><img src="./icons/mail_24.svg" alt="Icono de Email"> lroyero333@gmail.com</p>
+                <!-- <p><img src="web-icon.png" alt="Icono de Web"> www.sitioincreible.com</p> -->
+                <p><img src="./icons/pin_drop_24.svg" alt="Icono de Ubicación"> Bucaramanga, Colombia</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
